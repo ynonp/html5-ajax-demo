@@ -23,7 +23,7 @@ function onRefreshResult(e) {
 
   data.forEach(function(item) {
     var li = document.createElement('li');
-    li.innerText = item.name;
+    li.textContent = item.name;
     res.appendChild(li);
   });
 
